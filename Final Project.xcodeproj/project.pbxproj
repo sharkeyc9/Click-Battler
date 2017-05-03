@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241098CC1EB929D100003101 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC38D81EB2BCE5007D10B3 /* AudioToolbox.framework */; };
+		241098CE1EB92E2D00003101 /* Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 241098CD1EB92E2D00003101 /* Ding.wav */; };
 		24FC38A01EB26757007D10B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC389F1EB26757007D10B3 /* AppDelegate.swift */; };
-		24FC38A21EB26757007D10B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38A11EB26757007D10B3 /* ViewController.swift */; };
 		24FC38A51EB26757007D10B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC38A31EB26757007D10B3 /* Main.storyboard */; };
 		24FC38A71EB26757007D10B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FC38A61EB26757007D10B3 /* Assets.xcassets */; };
 		24FC38AA1EB26757007D10B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC38A81EB26757007D10B3 /* LaunchScreen.storyboard */; };
 		24FC38B51EB26757007D10B3 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38B41EB26757007D10B3 /* Final_ProjectTests.swift */; };
 		24FC38C01EB26757007D10B3 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38BF1EB26757007D10B3 /* Final_ProjectUITests.swift */; };
+		24FC38CE1EB267BE007D10B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38CD1EB267BE007D10B3 /* GameViewController.swift */; };
+		24FC38D01EB28F45007D10B3 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38CF1EB28F45007D10B3 /* StartScreenViewController.swift */; };
+		24FC38D41EB29B29007D10B3 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38D31EB29B29007D10B3 /* FinalViewController.swift */; };
+		24FC38D61EB2A9E8007D10B3 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC38D51EB2A9E8007D10B3 /* Structures.swift */; };
+		24FC38E11EB2BF67007D10B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC38E01EB2BF67007D10B3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241098CD1EB92E2D00003101 /* Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Ding.wav; path = ../../Downloads/Ding.wav; sourceTree = "<group>"; };
 		24FC389C1EB26757007D10B3 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FC389F1EB26757007D10B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24FC38A11EB26757007D10B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24FC38A41EB26757007D10B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24FC38A61EB26757007D10B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24FC38A91EB26757007D10B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,15 @@
 		24FC38BB1EB26757007D10B3 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FC38BF1EB26757007D10B3 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		24FC38C11EB26757007D10B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FC38CD1EB267BE007D10B3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
+		24FC38CF1EB28F45007D10B3 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		24FC38D31EB29B29007D10B3 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalViewController.swift; path = ../FinalViewController.swift; sourceTree = "<group>"; };
+		24FC38D51EB2A9E8007D10B3 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		24FC38D81EB2BCE5007D10B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24FC38DA1EB2BD21007D10B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24FC38DC1EB2BDC5007D10B3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		24FC38DE1EB2BE6B007D10B3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		24FC38E01EB2BF67007D10B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241098CC1EB929D100003101 /* AudioToolbox.framework in Frameworks */,
+				24FC38E11EB2BF67007D10B3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +94,12 @@
 		24FC38931EB26756007D10B3 = {
 			isa = PBXGroup;
 			children = (
+				241098CD1EB92E2D00003101 /* Ding.wav */,
 				24FC389E1EB26757007D10B3 /* Final Project */,
 				24FC38B31EB26757007D10B3 /* Final ProjectTests */,
 				24FC38BE1EB26757007D10B3 /* Final ProjectUITests */,
 				24FC389D1EB26757007D10B3 /* Products */,
+				24FC38D71EB2BCE5007D10B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				24FC389F1EB26757007D10B3 /* AppDelegate.swift */,
-				24FC38A11EB26757007D10B3 /* ViewController.swift */,
+				24FC38D51EB2A9E8007D10B3 /* Structures.swift */,
+				24FC38D31EB29B29007D10B3 /* FinalViewController.swift */,
+				24FC38CD1EB267BE007D10B3 /* GameViewController.swift */,
+				24FC38CF1EB28F45007D10B3 /* StartScreenViewController.swift */,
 				24FC38A31EB26757007D10B3 /* Main.storyboard */,
 				24FC38A61EB26757007D10B3 /* Assets.xcassets */,
 				24FC38A81EB26757007D10B3 /* LaunchScreen.storyboard */,
@@ -123,6 +145,18 @@
 				24FC38C11EB26757007D10B3 /* Info.plist */,
 			);
 			path = "Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+		24FC38D71EB2BCE5007D10B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FC38E01EB2BF67007D10B3 /* AVFoundation.framework */,
+				24FC38DE1EB2BE6B007D10B3 /* CoreAudio.framework */,
+				24FC38DC1EB2BDC5007D10B3 /* CoreMotion.framework */,
+				24FC38DA1EB2BD21007D10B3 /* CoreGraphics.framework */,
+				24FC38D81EB2BCE5007D10B3 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +268,7 @@
 			files = (
 				24FC38AA1EB26757007D10B3 /* LaunchScreen.storyboard in Resources */,
 				24FC38A71EB26757007D10B3 /* Assets.xcassets in Resources */,
+				241098CE1EB92E2D00003101 /* Ding.wav in Resources */,
 				24FC38A51EB26757007D10B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24FC38A21EB26757007D10B3 /* ViewController.swift in Sources */,
+				24FC38D61EB2A9E8007D10B3 /* Structures.swift in Sources */,
+				24FC38D01EB28F45007D10B3 /* StartScreenViewController.swift in Sources */,
+				24FC38D41EB29B29007D10B3 /* FinalViewController.swift in Sources */,
+				24FC38CE1EB267BE007D10B3 /* GameViewController.swift in Sources */,
 				24FC38A01EB26757007D10B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +543,7 @@
 				24FC38C61EB26757007D10B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24FC38C71EB26757007D10B3 /* Build configuration list for PBXNativeTarget "Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +552,7 @@
 				24FC38C91EB26757007D10B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24FC38CA1EB26757007D10B3 /* Build configuration list for PBXNativeTarget "Final ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +561,7 @@
 				24FC38CC1EB26757007D10B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
